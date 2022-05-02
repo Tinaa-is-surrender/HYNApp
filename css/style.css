@@ -17,6 +17,7 @@ body{
     font-family: "Gill Sans", sans-serif;
     -ms-overflow-style: none;
     overflow: hidden;
+    zoom: 0.8;
 }
 
 ::-webkit-scrollbar {
