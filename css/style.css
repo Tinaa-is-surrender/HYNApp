@@ -16,13 +16,12 @@ body{
     padding-top:300px;
     font-family: "Gill Sans", sans-serif;
     -ms-overflow-style: none;
-    overflow: auto;
-    zoom: 0.8;
+    overflow: hidden;
+    zoom: 0.8 !important;
 }
 
 ::-webkit-scrollbar {
      display: none;
-    
 }
     
 
@@ -33,7 +32,8 @@ body{
     -moz-user-select: none;
     -ms-user-select: none;
     -webkit-user-select: none;
-    position:absolute;
+    position: absolute;
+    background-size: cover;
     left:0;
     top:0;
 	max-width:100%;
